@@ -1,3 +1,6 @@
+## Запустить Airflow, Postgres, GreenPlum
+`docker-compose -f docker-compose.yaml up`
+
 ## Удалить все созданные контейнеры
 `docker ps -a | grep 'airflow-test-' | awk '{print $1}' | xargs docker rm -f`
 
