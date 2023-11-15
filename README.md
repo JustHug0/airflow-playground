@@ -11,13 +11,13 @@
 `sudo rm -rf /home/east/prjct/airflow-test/pgdata-source`
 
 ## Данные для подключения к GreenPlum
-user: gpadmin
-password: pivotal
+`user: gpadmin`
+`password: pivotal`
 
 ## Данные для подключения к Postgres Source
-user: gpadmin
-password: pivotal
+`user: gpadmin`
+`password: pivotal`
 
 ## Логин и пароль в интерфейс Airflow
-user: airflow
-password: airflow
+`user: airflow`
+`password: airflow`
